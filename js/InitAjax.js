@@ -13,5 +13,5 @@ xhr.addEventListener("readystatechange", function(){
 xhr.open("get","data/menu.json", true);
 xhr.send();
 
-console.log(JSON.parse(xhr.response));
-const data = JSON.parse(xhr.response);
+/*console.log(JSON.parse(xhr.response));
+const data = JSON.parse(xhr.response);*/
